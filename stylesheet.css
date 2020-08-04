@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #149DEB;
+  font-family: 'Overpass', sans-serif;
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  margin: 2rem;
+  background: #f2f2f2;
+  border: 1px solid gray;
+  width: 25%;
+  border-radius: 15px;
+  padding: 10px;
+  -webkit-box-shadow: 6px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 6px 10px rgba(0, 0, 0, 0.4);
+  display: block;
+  cursor: pointer;
+}
+
+.card h1 {
+  font-size: 24px;
+  border-bottom: 2px solid;
+  border-color: #149DEB;
+}
+
+.card p {
+  color: #5e5e5e;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.card:hover {
+  -webkit-transform: translate3D(0, -2px, 0);
+          transform: translate3D(0, -2px, 0);
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=stylesheet.css.map */
